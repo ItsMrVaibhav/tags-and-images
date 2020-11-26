@@ -18,7 +18,7 @@ function contentGenerator(E) {
     const cardImage = document.createElement("img");
     imageSpace.className = "Image-Space";
     cardImage.className = "Card-Image";
-    cardImage.src = "https://source.unsplash.com/1600x900/?" + headerInput.value;
+    cardImage.src = "https://source.unsplash.com/800x450/?" + headerInput.value;
     cardImage.alt = "Sorry! Image couldn't loaded. :(";
     imageSpace.appendChild(cardImage)
 
